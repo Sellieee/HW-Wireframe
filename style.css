@@ -1,117 +1,107 @@
-body 
-    {
-    background-color: #777; 
-    color: #777; 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 18px; 
-    width: 960px;
-    text-align: center;
-    margin: 0 auto;
-    overflow: auto;
-    }
+body {
+  background-color: #777;
+  color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: auto;
+}
 
-header  
-    {
-    background-color: #ebebeb;
-    padding: 30px; 
-    float: auto;  
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    display: block;  
-    clear: both;
-    }
+header {
+  background-color: #ebebeb;
+  padding: 30px;
+  float: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  clear: both;
+}
 
-nav
-    {
-     background-color: #ebebeb; 
-     text-align: center;
-     padding: 30px;
-     float: auto;
-     margin-bottom: 20px;  
-     display: block;
-     clear: both;
-    }
+nav {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 30px;
+  float: auto;
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
 
-section 
-    {
-    background-color: #ebebeb;
-    text-align: center;
-    width: 495px;
-    float: left; 
-    margin-right: 20px;  
-    padding: 30px;
-    margin-bottom: 20px;
-    height: 220px;
-        }
+section {
+  background-color: #ebebeb;
+  text-align: center;
+  width: 495px;
+  float: left;
+  margin-right: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+  height: 220px;
+}
 
-aside
-    {
-    background-color: #ebebeb;
-    text-align: center;
-    float: right;
-    padding: 30px;
-    /*960px (body width) - 495px (section width) - 30px - 30px
+aside {
+  background-color: #ebebeb;
+  text-align: center;
+  float: right;
+  padding: 30px;
+  /*960px (body width) - 495px (section width) - 30px - 30px
     (section padding) - 30px - 30px (padding) - 20px (margin-right)*/
-    width: 325px;
-    height: 220px;
-    }
+  width: 325px;
+  height: 220px;
+}
 
-footer 
-    {
-    background-color: #ebebeb;
-    text-align: center;  
-    padding: 30px; 
-    float: auto;
-    margin-left: 0px;   
-    display: block;
-    clear: both;
-    }
+footer {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 30px;
+  float: auto;
+  margin-left: 0px;
+  display: block;
+  clear: both;
+}
 
-div 
-    {
-    color: #ebebeb; 
-    background-color: #777;
-    text-align: center;
-    /*555px (section width 495px + 60px padding) - 40px padding
+div {
+  color: #ebebeb;
+  background-color: #777;
+  text-align: center;
+  /*555px (section width 495px + 60px padding) - 40px padding
     - 20px position = 495px*/
-    width: 495px;
-    float: left;
-    padding: 20px;
-    margin-top: 20px;
-    height: 150px;
-    position: relative;
-    right: 20px;
-    }
+  width: 495px;
+  float: left;
+  padding: 20px;
+  margin-top: 20px;
+  height: 150px;
+  position: relative;
+  right: 20px;
+}
 
-h1
-    {
-    color: #777; 
-    background-color: #ebebeb;
-    text-align: center;
-    /*Width = 495px - 30px padding -20px = 445px*/
-    width: 445px;
-    float: left;
-    padding: 15px;
-    margin-top: 15px;
-    margin-left: 0;
-    z-index: 1;
-    position: relative;
-    left: 10px;
-    }
+h1 {
+  color: #777;
+  background-color: #ebebeb;
+  text-align: center;
+  /*Width = 495px - 30px padding -20px = 445px*/
+  width: 445px;
+  float: left;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 0;
+  z-index: 1;
+  position: relative;
+  left: 10px;
+}
 
-p
-{
-    color: #777; 
-    background-color: #ebebeb;
-    text-align: center;
-    /*Width = 495px - 30px padding - 20px = 445px*/
-    width: 445px;
-    float: left;
-    padding: 15px;
-    margin-top: -10px;
-    margin-left: 0;
-    z-index: 1;
-    position: relative;
-    left: 10px;
-    }
-
+p {
+  color: #777;
+  background-color: #ebebeb;
+  text-align: center;
+  /*Width = 495px - 30px padding - 20px = 445px*/
+  width: 445px;
+  float: left;
+  padding: 15px;
+  margin-top: -10px;
+  margin-left: 0;
+  z-index: 1;
+  position: relative;
+  left: 10px;
+}
